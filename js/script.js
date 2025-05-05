@@ -12,8 +12,8 @@ function myButtonClicked() {
   const secondValue = parseInt(document.getElementById("second-value").value)
   //process
   while (counter < secondValue) {
-    let counter = counter + 1
-    let answer = answer + firstValue
+    counter = counter + 1
+    answer = answer + firstValue
   }
   document.getElementById("answer").innerHTML = answer
 }
